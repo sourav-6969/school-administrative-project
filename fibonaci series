@@ -1,0 +1,10 @@
+s=0
+b=0
+u=1
+ra=0
+while s<50:
+    print(ra)
+    b=u
+    u=ra
+    ra=u+b
+    s=s+1
