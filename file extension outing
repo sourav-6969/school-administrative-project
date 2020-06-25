@@ -1,0 +1,15 @@
+filename = input("Input the Filename: ")
+y= filename.split(".")[1]
+dic={
+    "python":["py","pyc","py3"],
+    "text":["txt"],
+    "web":["html","php","css"],
+    "audio":["mp3","wav","ogg"],
+    "video":["flv","mp4","mov"]}
+for i in dic:
+    if y in dic[i]:
+        print("the extension is :",i)
+else:
+     print("enter the filename again please!:")
+    
+       
